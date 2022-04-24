@@ -9,10 +9,27 @@ body {
     color: #0f141e;
 }
 
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: #1fa2e1;
+}
+
+/* a:visited {
+    color: grey;
+} */
+
 .container {
     max-width: 800px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .avatar {
@@ -23,6 +40,15 @@ body {
 
 .info {
     margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h1 {
+    margin-top: 30px;
 }
 
 .info-text p {
@@ -34,6 +60,13 @@ body {
 
 .info-text h4 {
     margin-bottom: 10px;
+}
+
+@media (max-width: 552px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
 }
 
 .card {
@@ -48,13 +81,110 @@ body {
 
 .bg-green {
     background: #b2e3ff;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .40);
     
+}
+
+.bg-green h2 {
+    text-align: center;
 }
 
 .bg-red {
     background: #ffc3bb;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .40);
+}
+
+.bg-red h2 {
+    text-align: center;
 }
 
 .bg-yellow {
     background: hsl(288, 100%, 86%);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .40);
+}
+
+.btn {
+    background: #1fa2e1;
+    padding: 15px 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 18px;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.list {
+    padding: 0 20px;
+}
+
+.list li {
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(3), .table td:nth-child(4) {
+    color: #777777;
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-right: 20px;
+    width: 50%;
+    /* display: inline-block; */
+    /* width: calc(50%-20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 552px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #585858;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(88, 88, 88);
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
 }
