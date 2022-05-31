@@ -19,7 +19,7 @@ a:hover {
 }
 
 a:active {
-    color: #1fa2e1;
+    color: #03a3e2;
 }
 
 /* a:visited {
@@ -54,7 +54,7 @@ a:active {
 .info-text p {
     font-style: 'Roboto';
     font-weight: bold;
-    color: #86898f;
+    color: #616161;
     margin: 0;
 }
 
@@ -80,7 +80,7 @@ a:active {
 }
 
 .bg-green {
-    background: #b2e3ff;
+    background: #bbbbbb;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, .40);
     
 }
@@ -90,7 +90,7 @@ a:active {
 }
 
 .bg-red {
-    background: #ffc3bb;
+    background: #8f8f8f;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, .40);
 }
 
@@ -99,12 +99,12 @@ a:active {
 }
 
 .bg-yellow {
-    background: hsl(288, 100%, 86%);
+    background: hsl(0, 0%, 38%);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, .40);
 }
 
 .btn {
-    background: #1fa2e1;
+    background: #929292;
     padding: 15px 20px;
     color: rgb(0, 0, 0);
     border: none;
@@ -122,7 +122,7 @@ a:active {
 }
 
 .list li {
-    color: #555555;
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -135,7 +135,7 @@ a:active {
 }
 
 .table td:nth-child(3), .table td:nth-child(4) {
-    color: #777777;
+    color: #cecece;
 }
 
 .form h2{
@@ -173,7 +173,7 @@ a:active {
 .form-group label {
     display: block;
     font-size: 14px;
-    color: #585858;
+    color: #c7c7c7;
 }
 
 .form-group input,
@@ -183,7 +183,7 @@ a:active {
     border: none;
     background: transparent;
     border-bottom: 1px solid rgb(88, 88, 88);
-    color: #000;
+    color: rgb(182, 182, 182);
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
